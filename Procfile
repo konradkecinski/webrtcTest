@@ -1,2 +1,2 @@
 worker: python webrtctest
-web: python -m http.server
+web: python -m SimpleHTTPServer 7000
