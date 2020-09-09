@@ -1,5 +1,5 @@
 // Config variables
-const SIGNALING_SERVER_URL = 'http://localhost';
+const SIGNALING_SERVER_URL = 'http://localhost'.contact(process.env.PORT.toString());
 const PC_CONFIG = {};
 
 let socket = io(SIGNALING_SERVER_URL, { autoConnect: false });
