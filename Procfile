@@ -1,2 +1,2 @@
-worker: python webrtctest
+web: python webrtctest
 web: python -m SimpleHTTPServer
