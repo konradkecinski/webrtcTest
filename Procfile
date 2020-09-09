@@ -1,2 +1,2 @@
 web: python -m SimpleHTTPServer
-web: python webrtctest
+web: gunicorn webrtctest:app
